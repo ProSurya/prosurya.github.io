@@ -1,0 +1,35 @@
+h1{font-size:22px}
+body{
+    background:#fff;
+    color:#333;
+    font-family:'Arial';
+}
+#box{
+    position:center;
+    border-radius:8px;
+    background:#fff;
+    width:300px;
+    margin:15px auto;
+    padding:20px 40px;
+    display:block;
+    border:1px solid #ddd;
+    box-shadow:2px 2px 20px #ddd
+}
+body input{
+    padding:10px;
+    border-radius:5px;
+    margin:10px 0;
+    width:100%;
+    border:1px solid #ddd
+}
+body input:focus{
+    border-color:#07acec;
+    outline:none
+}
+body button{
+    background:#07acec;
+    color:#fff;
+    border:none;
+    font-weight:bold;
+    border-radius:5px;
+    padding:10px}
