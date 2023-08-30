@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap');@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap');
+
+$shadow: 0 2px 2px rgb(0 0 0 / 0.5);
+$pink: #f14e95;
+
+canvas { display: block; margin: 2em; }
+.bg-canvas {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+body {
+	background-image: linear-gradient(to top, lighten(#97a8c0,20%) 40%, #97a8c0 80%);
+	background-size: cover;
+	width: 100vw;
+	min-height: 800vh;
+	overflow-x: hidden;
+}
+section {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: white;
+    text-shadow: $shadow;
+}
+
+.tangerine {
+	font-family: "Tangerine", cursive;
+}
+.arabic {
+	font-family: 'Noto Naskh Arabic', serif;
+}
+.work-sans {
+    font-family: 'Work Sans', sans-serif;
+}
+
+@media (max-width: 576px) {
+    html {
+        font-size: 70%;
+    }
+	#opening .container #quotes {
+		min-height: max-content !important;
+	}
+    // .card {
+    //     display: block;
+    //     position: relative;
+    //     padding-bottom: 0.72em;
+    //     font-size: 9vw !important;
+    //     font-size: 4vw;
+    //     line-height: 0.95;
+    // }
+}
