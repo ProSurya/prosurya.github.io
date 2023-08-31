@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap");
+canvas {
+  display: block;
+  margin: 2em;
+}
+
+.bg-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.tangerine {
+  font-family: "Tangerine", cursive;
+}
+
+.arabic {
+  font-family: "Noto Naskh Arabic", serif;
+}
+
+.work-sans {
+  font-family: "Work Sans", sans-serif;
+}
+
+body {
+  background-image: linear-gradient(to top, #d7dde6 40%, #97a8c0 80%);
+  background-size: cover;
+  width: 100vw;
+  min-height: 800vh;
+  overflow-x: hidden;
+}
+
+section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+nav {
+  position: fixed;
+  width: 100vw;
+  padding: 0 20px 20px;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  text-align: center;
+}
+nav .wrapper {
+  background: #fff;
+  padding: 10px;
+  border-radius: 100px;
+  display: inline-block;
+}
+nav .wrapper a.active {
+  background-color: rgb(213, 175, 129) !important;
+  color: rgb(253, 251, 247) !important;
+  border-radius: 100px;
+}
+
+.left-widget {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  z-index: 99;
+  border-radius: 50%;
+  left: 16px;
+  bottom: 90px;
+}
+
+.btn-audio {
+  color: white;
+  fill: white;
+}
+
+.fa-compact-disc:before {
+  content: "\f51f";
+  font-size: 40px;
+}
+
+.btn-donation {
+  bottom: 130px !important;
+  border: solid 1px #e6e6e6;
+  background: #fff;
+  color: #0d6599;
+}
+
+@media (max-width: 576px) {
+  html {
+    font-size: 70%;
+  }
+  #opening .container #quotes {
+    min-height: -moz-max-content !important;
+    min-height: max-content !important;
+  }
+}/*# sourceMappingURL=main.css.map */
