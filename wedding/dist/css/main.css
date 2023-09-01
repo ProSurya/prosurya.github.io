@@ -37,11 +37,6 @@ body {
   overflow-x: hidden;
 }
 
-main {
-  width: 75vw;
-  margin: 0 auto;
-}
-
 section {
   min-height: 100vh;
   display: flex;
